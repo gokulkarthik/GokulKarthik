@@ -7,6 +7,4 @@
 - 💬 Ask me about: **#DataScience #ArtificialIntelligence #Education #IndianPolitics**
 - 📫 How to reach me: [gokulkarthik.com](https://gokulkarthik.com/) | mail@gokulkarthik.com
 - 😄 Pronouns: Goks, GK
-<!--
-- ⚡ Fun fact: ...
->>
+- ⚡ Fun fact: Coursera😍 is my Netflix
