@@ -5,5 +5,5 @@
 - 👯 I’m looking to collaborate with fellow techies / business savvy people who are passionate about Digital Deep Tech Entrepreneurship.
 - 💻 Occasionaly, I participate in coding hackathons.
 - 💬 Ask me about: **#DataScience #ArtificialIntelligence #Education #IndianPolitics**
-- 📫 How to reach me: [gokulkarthik.com](https://gokulkarthik.com/) | mail@gokulkarthik.com
+- 📫 How to reach me: [gokulkarthik.com](https://gokulkarthik.com/) | mail@gokulkarthik.com | gokul.karthik@mbzuai.ac.ae
 - ⚡ Fun fact: Coursera😍 is my Netflix
