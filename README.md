@@ -6,4 +6,5 @@
 - 💻 Occasionaly, I participate in coding hackathons.
 - 💬 Ask me about: **#DataScience #ArtificialIntelligence #Education #IndianPolitics**
 - 📫 How to reach me: [gokulkarthik.com](https://gokulkarthik.com/) | mail@gokulkarthik.com | gokul.karthik@mbzuai.ac.ae
+- 😄 Nicknames: Goks, GK
 - ⚡ Fun fact: Coursera😍 is my Netflix
