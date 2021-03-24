@@ -1,10 +1,11 @@
-### Hello World! 👋
-- 🥇 Gold Medal of Excellence - Overall Best Outgoing Student of 2019 batch @ Thiagarajar College of Engineering, Anna University.
-- 🔭 I’m currently working as a Research Assistant @ Computer Vision Department, [MBZUAI](https://mbzuai.ac.ae)
-- 🌱 I’m currently exploring identification and purification of adversarial attacks in Computer Vision.
-- 👯 I’m looking to collaborate with fellow techies / business savvy people who are passionate about Digital Deep Tech Entrepreneurship.
+- 📍  **Hello, World!** This is Gokul Karthik from Tuticorin, India 🇮🇳, living in Abu Dhabi, UAE 🇦🇪.
+- 🔭 I am currently working as a Research Assistant @ Computer Vision Department, [MBZUAI](https://mbzuai.ac.ae/)
+- 🕘 I had held technical roles with top research organizations like TCS Research & IIT Madras
+- 🥇 I had won the [Gold Medal of Overall Excellence](https://www.tce.edu/sites/default/files/BOS-Awardees-2019.pdf) for being the Best Outgoing Student of 2019 batch @ Thiagarajar College of Engineering, Anna University.
+- 🌱 Recently, I have been exploring adversarial defense techniques in Computer Vision.
+- 👯 I am looking to collaborate with fellow techies and business savvy people who are passionate about Digital Deep Tech Entrepreneurship.
 - 💻 Occasionaly, I participate in coding hackathons.
-- 💬 Ask me about: **#DataScience #ArtificialIntelligence #Education #IndianPolitics**
-- 📫 How to reach me: [gokulkarthik.com](https://gokulkarthik.com/) | mail@gokulkarthik.com | gokul.karthik@mbzuai.ac.ae
+- 💬 Ask me about: #DataScience #ArtificialIntelligence #Education #IndianPolitics #Entrepreneurship
+- 📫 How to reach me: gokulkarthik.com | mail@gokulkarthik.com | gokul.karthik@mbzuai.ac.ae
 - 😄 Nicknames: Goks, GK
-- ⚡ Fun fact: Coursera😍 is my Netflix
+- ⚡ Fun fact: Coursera is my Netflix
