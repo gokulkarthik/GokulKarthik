@@ -1,6 +1,6 @@
 - 📍  **Hello, World!** This is Gokul Karthik from Tuticorin, India 🇮🇳, living in Abu Dhabi, UAE 🇦🇪.
-- 🔭 I am currently working as a Research Assistant @ Computer Vision Department, [MBZUAI](https://mbzuai.ac.ae/)
-- 🕘 I had held technical roles with top research organizations like [TCS Research](https://www.tcs.com/tcs-research) & [IIT Madras](https://www.iitm.ac.in/)
+- 🔭 I am a Computer Vision graduate student @ [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)
+- 🕘 I had held technical roles with top research organizations like [TCS Research](https://www.tcs.com/tcs-research), [IIT Madras](https://www.iitm.ac.in/) and [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)
 - 🥇 I had won the [**Gold Medal of Overall Excellence**](https://www.tce.edu/sites/default/files/BOS-Awardees-2019.pdf) for being the Best Outgoing Student of 2019 batch @ [Thiagarajar College of Engineering, Anna University](https://www.tce.edu).
 - 🌱 Recently, I have been exploring adversarial defense techniques in Computer Vision.
 - 👯 I am looking to collaborate with fellow techies and business savvy people who are passionate about Digital Deep Tech Entrepreneurship.
