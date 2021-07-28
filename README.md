@@ -1,4 +1,4 @@
-- 📍  **Hello, World!** This is Gokul Karthik from Thoothukudi, India 🇮🇳, living in Abu Dhabi, UAE 🇦🇪.
+- 📍  **Hello, World!** This is Gokul Karthik from Thoothukudi, Tamil Nadu, India 🇮🇳, living in Abu Dhabi, UAE 🇦🇪.
 - 🔭 I am a Computer Vision graduate student @ [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)
 - 🕘 I had held technical roles with top research organizations like [TCS Research](https://www.tcs.com/tcs-research), [IIT Madras](https://www.iitm.ac.in/) and [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)
 - 🥇 I had won the [**Gold Medal of Overall Excellence**](https://www.tce.edu/sites/default/files/BOS-Awardees-2019.pdf) for being the Best Outgoing Student of 2019 batch @ [Thiagarajar College of Engineering, Anna University](https://www.tce.edu).
