@@ -1,4 +1,4 @@
-- 📍  **Hello, World!** This is Gokul Karthik from Tuticorin, India 🇮🇳, living in Abu Dhabi, UAE 🇦🇪.
+- 📍  **Hello, World!** This is Gokul Karthik from Thoothukudi, India 🇮🇳, living in Abu Dhabi, UAE 🇦🇪.
 - 🔭 I am a Computer Vision graduate student @ [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)
 - 🕘 I had held technical roles with top research organizations like [TCS Research](https://www.tcs.com/tcs-research), [IIT Madras](https://www.iitm.ac.in/) and [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)
 - 🥇 I had won the [**Gold Medal of Overall Excellence**](https://www.tce.edu/sites/default/files/BOS-Awardees-2019.pdf) for being the Best Outgoing Student of 2019 batch @ [Thiagarajar College of Engineering, Anna University](https://www.tce.edu).
@@ -6,6 +6,6 @@
 - 👯 I am looking to collaborate with fellow techies and business savvy people who are passionate about Digital Deep Tech Entrepreneurship.
 - 💻 Occasionaly, I participate in coding hackathons.
 - 💬 Ask me about: **#DataScience #ArtificialIntelligence #Education #IndianPolitics #Entrepreneurship**
-- 📫 How to reach me: [gokulkarthik.com](https://gokulkarthik.com/) | mail@gokulkarthik.com | gokul.karthik@mbzuai.ac.ae
+- 📫 How to reach me: mail@gokulkarthik.com 
 - 😄 Nicknames: Goks, GK
 - ⚡ Fun fact: Coursera is my Netflix
