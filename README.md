@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="20px"> **வணக்கம்,  உலகம்!** (**Hello, World!** in Tamil) 
+<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="18px"> **வணக்கம்,  உலகம்!** (**Hello, World!** in Tamil) 
 📍 Grew up in Thoothukudi / Madurai / Chennai 🇮🇳, and living in Abu Dhabi 🇦🇪.  
 👨‍🎓 Graduated with a **BTech Information Technology** @ [Anna University (TCE)](https://www.tce.edu) with the [Gold Medal for Overall Excellence](https://www.tce.edu/sites/default/files/BOS-Awardees-2019.pdf) in 2019.   
 👨‍💻 Applied **Machine Learning** to real-world problems @ [TCS Research](https://www.tcs.com/making-big-data-work-for-you) / [IIT Madras](https://ai4bharat.org/) / [MBZUAI](https://www.sprintai.org/) for **2+ years** (2019-21).  
