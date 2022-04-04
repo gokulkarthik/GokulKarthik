@@ -34,6 +34,13 @@
 </a>
 <a href="https://www.instagram.com/gokulkarthikk/">
   <img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
+</a> 
+<br>
+<a href="https://github.com/gokulkarthik/GokulKarthik/blob/master/Gokul_Karthik_CV.pdf">
+  <img alt="CV" src="https://img.shields.io/badge/CV-%23121011.svg?style=for-the-badge&logoColor=white">
+</a>
+ <a href="https://github.com/gokulkarthik/GokulKarthik/blob/master/Gokul_Karthik_Resume.pdf">
+  <img alt="Resume" src="https://img.shields.io/badge/Resume-%23121011.svg?style=for-the-badge&logoColor=white">
 </a>
 </p>
 
