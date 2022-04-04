@@ -5,9 +5,10 @@
 👨‍🎓 Currently pursuing **MSc Computer Vision** @ [MBZUAI](https://mbzuai.ac.ae/study/academic-programs/msc/computer-vision) and expecting to graduate in May 2023.  
 🥇 Won **8 national-level hackathon** type events in 🇮🇳 (TCS-IEC, TCS-DDS, IITM, HCL, MHRD) & 🇦🇪 (ADAFSA, GITEX, KIC).  
 🌱 Recently exploring **Multimodal Deep Learning** and **Multilingual Deep Learning** with Transformer architectures.  
-🤖 Mostly develop solutions with: 
-<img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=Python&logoColor=ffdd54">
-<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white">
+🤖 Mostly develop solutions with: **Python, PyTorch**
+
+<!-- <img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=Python&logoColor=ffdd54">
+<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white"> -->
 
 ---
 
