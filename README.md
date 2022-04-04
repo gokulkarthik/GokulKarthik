@@ -4,7 +4,7 @@
 👨‍💻 Applied **Machine Learning** to real-world problems @ [TCS Research](https://www.tcs.com/making-big-data-work-for-you) / [IIT Madras](https://ai4bharat.org/) / [MBZUAI](https://www.sprintai.org/) for **2+ years** (2019-21).  
 👨‍🎓 Currently pursuing **MSc Computer Vision** @ [MBZUAI](https://mbzuai.ac.ae/study/academic-programs/msc/computer-vision) and expecting to graduate in May 2023.  
 🥇 Won **8 national-level hackathon** type events in 🇮🇳 (TCS-IEC, TCS-DDS, IITM, HCL, MHRD) & 🇦🇪 (ADAFSA, GITEX, KIC).  
-🌱 Exploring **Deep Tech Enterpreneurship**, **Multimodal Deep Learning** and **Multilingual Deep Learning**.  
+🌱 Exploring **Deep Tech Enterpreneurship**, **Multimodal Deep Learning**, and **Multilingual Deep Learning**.  
 🤖 Mostly develop solutions with: **Python, PyTorch**
 
 <!-- <img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=Python&logoColor=ffdd54">
