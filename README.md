@@ -9,14 +9,14 @@
 
 <!-- <img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=Python&logoColor=ffdd54">
 <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white"> -->
-
+<!-- 
 ---
 
 🔡 Languages: Tamil (🇮🇳 📖 ✍️ 🗣️👂), English (📖 ✍️ 🗣️👂), Malayalam (👂), Telugu (👂)   
 💬 Interests: Artificial Intelligence, Entrepreneurship, Education, Indian Politics, News, Food, Fitness, Movies  
 😄 People call me as: Gokul, Aswin, Karthik, Goks, GK     
 ⚡ Fun fact: Coursera is my another Netflix    
-
+ -->
 ---
 
 <p align='center'>
