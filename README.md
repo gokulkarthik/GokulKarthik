@@ -3,8 +3,8 @@
 👨‍🎓 **MSc Computer Vision** @ [MBZUAI](https://mbzuai.ac.ae/study/academic-programs/msc/computer-vision) / **BTech Information Technology** @ [Anna University (TCE)](https://www.tce.edu)    
 👨‍💻 Applied/Applying **Machine Learning** to real-world problems @ [Microsoft Research](https://www.microsoft.com/en-us/research/) / [MBZUAI](https://www.sprintai.org/) / [TCS Research](https://www.tcs.com/making-big-data-work-for-you) / [IIT Madras](https://ai4bharat.org/).    
 🥇 Won **8 national-level hackathon** type events in 🇮🇳 (TCS-IEC, TCS-DDS, IITM, HCL, MHRD) & 🇦🇪 (ADAFSA, GITEX, KIC).  
+🤖 Mostly develop solutions with: **Python, PyTorch**.  
 🌱 Exploring **Deep Tech Enterpreneurship**, **Multimodal Deep Learning**, and **Multilingual Deep Learning**.  
-🤖 Mostly develop solutions with: **Python, PyTorch**
 
 <!-- <img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=Python&logoColor=ffdd54">
 <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white"> -->
