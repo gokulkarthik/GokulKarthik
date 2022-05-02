@@ -1,8 +1,7 @@
 <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="18px"> **வணக்கம்,  உலகம்!** (**Hello, World!** in Tamil)   
 📍 Grew up in Thoothukudi / Madurai / Chennai 🇮🇳, and living in Abu Dhabi 🇦🇪.  
-👨‍🎓 Graduated with a **BTech Information Technology** @ [Anna University (TCE)](https://www.tce.edu) with the [Gold Medal for Overall Excellence](https://www.tce.edu/sites/default/files/BOS-Awardees-2019.pdf) in 2019.   
-👨‍💻 Applied **Machine Learning** to real-world problems @ [TCS Research](https://www.tcs.com/making-big-data-work-for-you) / [IIT Madras](https://ai4bharat.org/) / [MBZUAI](https://www.sprintai.org/) for **2+ years** (2019-21).  
-👨‍🎓 Currently pursuing **MSc Computer Vision** @ [MBZUAI](https://mbzuai.ac.ae/study/academic-programs/msc/computer-vision) and expecting to graduate in May 2023.  
+👨‍🎓 **MSc Computer Vision** @ [MBZUAI](https://mbzuai.ac.ae/study/academic-programs/msc/computer-vision) / **BTech Information Technology** @ [Anna University (TCE)](https://www.tce.edu)    
+👨‍💻 Applied/Applying **Machine Learning** to real-world problems @ [Microsoft Research](https://www.microsoft.com/en-us/research/) / [MBZUAI](https://www.sprintai.org/) / [TCS Research](https://www.tcs.com/making-big-data-work-for-you) / [IIT Madras](https://ai4bharat.org/).    
 🥇 Won **8 national-level hackathon** type events in 🇮🇳 (TCS-IEC, TCS-DDS, IITM, HCL, MHRD) & 🇦🇪 (ADAFSA, GITEX, KIC).  
 🌱 Exploring **Deep Tech Enterpreneurship**, **Multimodal Deep Learning**, and **Multilingual Deep Learning**.  
 🤖 Mostly develop solutions with: **Python, PyTorch**
