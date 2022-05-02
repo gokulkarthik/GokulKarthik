@@ -22,7 +22,7 @@
 <a href="https://www.gokulkarthik.com/">
   <img alt="Website" src="https://img.shields.io/badge/Website-D14836?style=for-the-badge&logoColor=white">
 </a>
-<a href="mailto:mail@gokulkarthik.com">
+<a href="mailto:gokulkarthikk@gmail.com">
   <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logoColor=white">
 </a>
 <a href="https://www.linkedin.com/in/gokulkarthik/">
