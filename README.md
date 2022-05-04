@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="18px"> **வணக்கம்,  உலகம்!** (**Hello, World!** in Tamil)   
 📍 Grew up in Thoothukudi | Madurai | Chennai 🇮🇳, and living in Abu Dhabi 🇦🇪.  
 👨‍🎓 **MSc Computer Vision** @ [MBZUAI](https://mbzuai.ac.ae/study/academic-programs/msc/computer-vision) | **BTech Information Technology** @ [Anna University (TCE)](https://www.tce.edu)    
-👨‍💻 Applied/Applying **Machine Learning** to real-world problems @ [Microsoft Research](https://www.microsoft.com/en-us/research/) | [MBZUAI](https://www.sprintai.org/) | [TCS Research](https://www.tcs.com/making-big-data-work-for-you) | [IIT Madras](https://ai4bharat.org/) since Jan 2019.    
+👨‍💻 Applying/Applied **Machine Learning** to real-world problems @ [Microsoft Research](https://www.microsoft.com/en-us/research/) | [MBZUAI](https://www.sprintai.org/) | [TCS Research](https://www.tcs.com/making-big-data-work-for-you) | [IIT Madras](https://ai4bharat.org/) since Jan 2019.    
 🥇 Won **8 national-level hackathon** type events @ 🇦🇪 (ADAFSA, GITEX, KIC) & 🇮🇳 (TCS-IEC, TCS-DDS, IITM, HCL, MHRD).  
 🤖 Mostly develop solutions with: **Python, PyTorch**.  
 🌱 Exploring **Deep Tech Enterpreneurship**, **Multimodal Deep Learning**, and **Multilingual Deep Learning**.  
