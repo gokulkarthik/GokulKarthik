@@ -4,7 +4,7 @@
 
 👨‍🎓 MSc Computer Vision @ [MBZUAI](https://mbzuai.ac.ae/study/academic-programs/msc/computer-vision) | BTech Information Technology @ [Anna University (TCE)](https://www.tce.edu)
 
-👨‍💻Applying/Applied machine learning to real-world problems @ [Microsoft Research](https://www.microsoft.com/en-us/research/) | [MBZUAI](https://www.sprintai.org/) | [TCS Research](https://www.tcs.com/making-big-data-work-for-you) | [IIT Madras](https://ai4bharat.org/) since Jan 2019
+👨‍💻 Applying/Applied machine learning to real-world problems @ [Microsoft Research](https://www.microsoft.com/en-us/research/) | [MBZUAI](https://www.sprintai.org/) | [TCS Research](https://www.tcs.com/making-big-data-work-for-you) | [IIT Madras](https://ai4bharat.org/) since Jan 2019
 
 🥇 Won 8 national-level hackathon type events in 🇮🇳 (TCS-IEC, TCS-DDS, IITM, HCL, MHRD) & 🇦🇪 (ADAFSA, GITEX, KIC)
 
