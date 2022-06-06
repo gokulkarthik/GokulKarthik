@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="18px"> வணக்கம், உலகம்! (Hello, World! in Tamil)
+👋 வணக்கம், உலகம்! (Hello, World! in Tamil)
 
 📍 Living in Abu Dhabi 🇦🇪 and lived in Chennai 🇮🇳 | Madurai 🇮🇳 | Thoothukudi 🇮🇳
 
