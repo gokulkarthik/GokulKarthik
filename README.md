@@ -6,7 +6,7 @@
 
 👨‍💻 Applying/Applied Machine Learning to real-world problems @ [Microsoft Research](https://www.microsoft.com/en-us/research/) | [MBZUAI](https://www.sprintai.org/) | [TCS Research](https://www.tcs.com/making-big-data-work-for-you) | [IIT Madras](https://ai4bharat.org/) since Jan 2019
 
-🥇 Won 8 national-level hackathon type events @ 🇦🇪 (ADAFSA | GITEX | KIC) & 🇮🇳 (TCS-IEC | TCS-DDS | IIT Madras | HCL | MHRD)
+🥇 Won 8 national-level hackathons @ 🇦🇪 (ADAFSA | GITEX | KIC) & 🇮🇳 (TCS-IEC | TCS-DDS | IIT Madras | HCL | MHRD)
 
 🤖 Mostly code in Python | PyTorch
 
