@@ -10,9 +10,9 @@
 
 🤖 Mostly code in Python | PyTorch
 
-🌱 Interested in Deep Tech Entrepreneurship | Multimodal Deep Learning | Multilingual Deep Learning
+🌱 Interested in Deep Tech Entrepreneurship | Multimodal and Multilingual Deep Learning
 
-🚀 Currently working on text-to-speech synthesis for Indian languages
+🚀 Currently working on Multimodal and Multilingual Encoders
 
 <!-- <img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=Python&logoColor=ffdd54">
 <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white"> -->
