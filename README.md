@@ -1,3 +1,4 @@
+<!--
 👋 வணக்கம், உலகம்! (Hello, World! in Tamil)
 
 📍 Living in Abu Dhabi 🇦🇪 and lived in Chennai 🇮🇳 | Madurai 🇮🇳 | Thoothukudi 🇮🇳
@@ -13,19 +14,23 @@
 🌱 Interested in Deep Tech Entrepreneurship | Multimodal and Multilingual Deep Learning
 
 🚀 Currently working on Multimodal and Multilingual Encoders
+-->
 
 <!-- <img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=Python&logoColor=ffdd54">
 <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white"> -->
+
+
 <!-- 
 ---
-
 🔡 Languages: Tamil (🇮🇳 📖 ✍️ 🗣️👂), English (📖 ✍️ 🗣️👂), Malayalam (👂), Telugu (👂)   
 💬 Interests: Artificial Intelligence, Entrepreneurship, Education, Indian Politics, News, Food, Fitness, Movies  
-😄 People call me as: Gokul, Aswin, Karthik, Goks, GK     
 ⚡ Fun fact: Coursera is my another Netflix    
  -->
----
+ 
+Check my profile @ [gokulkarthik.com](https://www.gokulkarthik.com/)
 
+<!--
+---
 <p align='center'>
 <a href="https://www.gokulkarthik.com/">
   <img alt="Website" src="https://img.shields.io/badge/Website-D14836?style=for-the-badge&logoColor=white">
@@ -50,5 +55,6 @@
   <img alt="Resume" src="https://img.shields.io/badge/Resume-%23121011.svg?style=for-the-badge&logoColor=white">
 </a>
 </p>
+-->
 
 <!-- https://github.com/Ileriayo/markdown-badges -->
