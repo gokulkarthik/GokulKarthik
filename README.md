@@ -26,7 +26,7 @@
 💬 Interests: Artificial Intelligence, Entrepreneurship, Education, Indian Politics, News, Food, Fitness, Movies  
 ⚡ Fun fact: Coursera is my another Netflix    
  -->
-[gokulkarthik.com](https://www.gokulkarthik.com/)
+[www.gokul.ch](https://www.gokul.ch)
 
 <!--
 ---
