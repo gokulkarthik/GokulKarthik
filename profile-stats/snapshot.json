@@ -1,0 +1,50 @@
+{
+  "updatedAt": "2026-11-12T11:33:04.978Z",
+  "projects": 25,
+  "stars": 724,
+  "forks": 192,
+  "topStarred": [
+    {
+      "name": "AI4Bharat/Indic-TTS",
+      "count": 418
+    },
+    {
+      "name": "gokulkarthik/hateclipper",
+      "count": 61
+    },
+    {
+      "name": "gokulkarthik/NPTEL-Social-Networks",
+      "count": 59
+    },
+    {
+      "name": "gokulkarthik/text2speech",
+      "count": 58
+    },
+    {
+      "name": "gokulkarthik/Deep-Learning-Projects.pytorch",
+      "count": 46
+    }
+  ],
+  "topForked": [
+    {
+      "name": "AI4Bharat/Indic-TTS",
+      "count": 94
+    },
+    {
+      "name": "gokulkarthik/NPTEL-Social-Networks",
+      "count": 47
+    },
+    {
+      "name": "gokulkarthik/hateclipper",
+      "count": 11
+    },
+    {
+      "name": "gokulkarthik/Deep-Learning-Projects.pytorch",
+      "count": 10
+    },
+    {
+      "name": "gokulkarthik/text2speech",
+      "count": 8
+    }
+  ]
+}

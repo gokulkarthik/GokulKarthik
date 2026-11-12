@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="498" viewBox="0 0 520 498" role="img" aria-labelledby="title description">
+  <title id="title">Open-source stats</title>
+  <desc id="description">724 stars and 192 forks across 25 public repositories. Updated 12 Nov 2026. Most starred: AI4Bharat/Indic-TTS, 418; gokulkarthik/hateclipper, 61; gokulkarthik/NPTEL-Social-Networks, 59; gokulkarthik/text2speech, 58; gokulkarthik/Deep-Learning-Projects.pytorch, 46. Most forked: AI4Bharat/Indic-TTS, 94; gokulkarthik/NPTEL-Social-Networks, 47; gokulkarthik/hateclipper, 11; gokulkarthik/Deep-Learning-Projects.pytorch, 10; gokulkarthik/text2speech, 8.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172438 }
+    .title { font-size: 22px; font-weight: 700 }
+    .heading { font-size: 15px; font-weight: 700 }
+    .label, .rank, .footer, .owner { fill: #506179 }
+    .label, .rank, .footer { font-size: 12px }
+    .total { font-size: 32px; font-weight: 700; fill: #17468e }
+    .repo { font-size: 13.5px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace }
+    .count { font-size: 14px; font-weight: 650 }
+    .total, .count { font-variant-numeric: tabular-nums }
+  </style>
+  <rect x="0.5" y="0.5" width="519" height="497" rx="16" fill="#ffffff" stroke="#d8e1ed"/>
+  <text x="24" y="41" class="title">Open-source stats</text>
+  <text x="496" y="40" text-anchor="end" class="label">25 public repositories</text>
+  <rect x="24" y="61" width="230" height="80" rx="11" fill="#edf4ff"/>
+  <rect x="266" y="61" width="230" height="80" rx="11" fill="#edf4ff"/>
+  <text x="40" y="101" class="total">724</text>
+  <text x="41" y="122" class="label">Total stars</text>
+  <text x="282" y="101" class="total">192</text>
+  <text x="283" y="122" class="label">Total forks</text>
+  <text x="24" y="172" class="heading">Most starred</text>
+    <text x="24" y="197" class="rank">1</text>
+        <text x="45" y="197" class="repo"><tspan x="45" dy="0"><tspan class="owner">AI4Bharat/</tspan>Indic-TTS</tspan></text>
+        <text x="496" y="197" text-anchor="end" class="count">418</text>
+    <text x="24" y="220" class="rank">2</text>
+        <text x="45" y="220" class="repo"><tspan x="45" dy="0"><tspan class="owner">gokulkarthik/</tspan>hateclipper</tspan></text>
+        <text x="496" y="220" text-anchor="end" class="count">61</text>
+    <text x="24" y="243" class="rank">3</text>
+        <text x="45" y="243" class="repo"><tspan x="45" dy="0"><tspan class="owner">gokulkarthik/</tspan>NPTEL-Social-Networks</tspan></text>
+        <text x="496" y="243" text-anchor="end" class="count">59</text>
+    <text x="24" y="266" class="rank">4</text>
+        <text x="45" y="266" class="repo"><tspan x="45" dy="0"><tspan class="owner">gokulkarthik/</tspan>text2speech</tspan></text>
+        <text x="496" y="266" text-anchor="end" class="count">58</text>
+    <text x="24" y="289" class="rank">5</text>
+        <text x="45" y="289" class="repo"><tspan x="45" dy="0"><tspan class="owner">gokulkarthik/</tspan>Deep-Learning-Projects.pytorch</tspan></text>
+        <text x="496" y="289" text-anchor="end" class="count">46</text>
+    <text x="24" y="324" class="heading">Most forked</text>
+    <text x="24" y="349" class="rank">1</text>
+        <text x="45" y="349" class="repo"><tspan x="45" dy="0"><tspan class="owner">AI4Bharat/</tspan>Indic-TTS</tspan></text>
+        <text x="496" y="349" text-anchor="end" class="count">94</text>
+    <text x="24" y="372" class="rank">2</text>
+        <text x="45" y="372" class="repo"><tspan x="45" dy="0"><tspan class="owner">gokulkarthik/</tspan>NPTEL-Social-Networks</tspan></text>
+        <text x="496" y="372" text-anchor="end" class="count">47</text>
+    <text x="24" y="395" class="rank">3</text>
+        <text x="45" y="395" class="repo"><tspan x="45" dy="0"><tspan class="owner">gokulkarthik/</tspan>hateclipper</tspan></text>
+        <text x="496" y="395" text-anchor="end" class="count">11</text>
+    <text x="24" y="418" class="rank">4</text>
+        <text x="45" y="418" class="repo"><tspan x="45" dy="0"><tspan class="owner">gokulkarthik/</tspan>Deep-Learning-Projects.pytorch</tspan></text>
+        <text x="496" y="418" text-anchor="end" class="count">10</text>
+    <text x="24" y="441" class="rank">5</text>
+        <text x="45" y="441" class="repo"><tspan x="45" dy="0"><tspan class="owner">gokulkarthik/</tspan>text2speech</tspan></text>
+        <text x="496" y="441" text-anchor="end" class="count">8</text>
+  <path d="M24 464H496" stroke="#e2e9f2"/>
+  <text x="24" y="483" class="footer">Updated 12 Nov 2026</text>
+</svg>

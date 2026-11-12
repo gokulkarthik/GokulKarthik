@@ -26,7 +26,9 @@
 💬 Interests: Artificial Intelligence, Entrepreneurship, Education, Indian Politics, News, Food, Fitness, Movies  
 ⚡ Fun fact: Coursera is my another Netflix    
  -->
-[www.gokul.ch](https://www.gokul.ch)
+[Homepage](https://www.gokul.ch) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=seFW1dkAAAAJ) · [Email](mailto:gokul.ch@outlook.com)
+
+![Open-source stats: total stars and forks, and the five repositories leading each ranking.](profile-stats/stats.svg)
 
 <!--
 ---
