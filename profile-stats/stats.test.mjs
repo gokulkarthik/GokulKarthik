@@ -54,11 +54,17 @@ test('rejects redirects outside the GitHub API origin', async () => {
     Response.redirect('https://example.com', 301) }), /Unexpected GitHub redirect/);
 });
 
-test('README stats match the snapshot and each ranked name links to its repository', async () => {
+test('README shows matching totals and clickable rankings side by side', async () => {
   const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
   assert.equal(readme, updateReadme(readme, snapshot));
-  for (const { name } of [...snapshot.topStarred, ...snapshot.topForked]) {
-    assert.ok(readme.includes(`[${name}](https://github.com/${name})`));
+  assert.match(readme, /^### [\d,]+ Stars · [\d,]+ Forks$/m);
+  assert.ok(!readme.includes('public repositories'));
+  const rows = readme.split('\n').filter(line => line.startsWith('| ['));
+  assert.equal(rows.length, snapshot.topStarred.length);
+  for (const [i, row] of rows.entries()) {
+    for (const { name } of [snapshot.topStarred[i], snapshot.topForked[i]]) {
+      assert.ok(row.includes(`[${name}](https://github.com/${name})`));
+    }
   }
 });
 

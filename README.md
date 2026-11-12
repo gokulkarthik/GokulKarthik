@@ -32,25 +32,17 @@
 
 <!-- profile-stats:start -->
 
-## Open-source stats
+## Open-Source Stats
 
-**724 stars** · **192 forks** across 25 public repositories
+### 724 Stars · 192 Forks
 
-| Most starred | Stars |
-| --- | ---: |
-| [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) | 418 |
-| [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) | 61 |
-| [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) | 59 |
-| [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) | 58 |
-| [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) | 46 |
-
-| Most forked | Forks |
-| --- | ---: |
-| [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) | 94 |
-| [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) | 47 |
-| [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) | 11 |
-| [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) | 10 |
-| [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) | 8 |
+| Most Starred | Stars | Most Forked | Forks |
+| --- | ---: | --- | ---: |
+| [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) | 418 | [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) | 94 |
+| [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) | 61 | [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) | 47 |
+| [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) | 59 | [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) | 11 |
+| [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) | 58 | [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) | 10 |
+| [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) | 46 | [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) | 8 |
 
 <sub>Updated 12 Nov 2026</sub>
 
