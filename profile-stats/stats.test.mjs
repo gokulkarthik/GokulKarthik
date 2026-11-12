@@ -57,7 +57,7 @@ test('rejects redirects outside the GitHub API origin', async () => {
 test('README shows matching totals and clickable rankings side by side', async () => {
   const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
   assert.equal(readme, updateReadme(readme, snapshot));
-  assert.match(readme, /^### [\d,]+ Stars · [\d,]+ Forks$/m);
+  assert.match(readme, /^## Open-Source Stats · ⭐ [\d,]+ Stars · 🍴 [\d,]+ Forks$/m);
   assert.ok(!readme.includes('public repositories'));
   const rows = readme.split('\n').filter(line => line.startsWith('| ['));
   assert.equal(rows.length, snapshot.topStarred.length);

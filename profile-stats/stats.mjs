@@ -105,8 +105,7 @@ export function updateReadme(readme, stats) {
     ...stats.topStarred.map((starred, i) => `| ${cells(starred)} | ${cells(stats.topForked[i])} |`),
   ].join('\n');
   const section = [
-    '## Open-Source Stats',
-    `### ${number.format(stats.stars)} Stars · ${number.format(stats.forks)} Forks`,
+    `## Open-Source Stats · ⭐ ${number.format(stats.stars)} Stars · 🍴 ${number.format(stats.forks)} Forks`,
     rankings,
     `<sub>Updated ${date.format(new Date(stats.updatedAt))}</sub>`,
   ].join('\n\n');

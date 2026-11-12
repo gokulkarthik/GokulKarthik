@@ -26,15 +26,11 @@
 💬 Interests: Artificial Intelligence, Entrepreneurship, Education, Indian Politics, News, Food, Fitness, Movies  
 ⚡ Fun fact: Coursera is my another Netflix    
  -->
-# Gokul Karthik Kumar
-
 **[Homepage ↗](https://www.gokul.ch)** · **[Google Scholar ↗](https://scholar.google.com/citations?hl=en&user=seFW1dkAAAAJ)** · **[Email](mailto:gokul.ch@outlook.com)**
 
 <!-- profile-stats:start -->
 
-## Open-Source Stats
-
-### 724 Stars · 192 Forks
+## Open-Source Stats · ⭐ 724 Stars · 🍴 192 Forks
 
 | Most Starred | Stars | Most Forked | Forks |
 | --- | ---: | --- | ---: |
