@@ -1,18 +1,18 @@
 # Profile stats
 
-The card adds stars and forks across all public, original repositories owned by
+The stats section adds stars and forks across all public, original repositories owned by
 `gokulkarthik` and the projects listed in [config.mjs](config.mjs). Curated forks
 resolve to their source repository. GitHub repository IDs prevent duplicates.
 Rankings use the same set as the totals, and ties sort by owner/repo.
 
 ## Daily refresh
 
-Once these files are on the `master` branch of `gokulkarthik/GokulKarthik`, the
-profile README displays the checked-in [card](stats.svg). The
-[workflow](../.github/workflows/profile-stats.yml) checks GitHub every day around
-03:15 UTC and commits only the generated stats files when the numbers or
-rankings change. If the data stays the same, it updates the card's date after
-two weeks. A failed fetch leaves the last published card in place.
+The [workflow](../.github/workflows/profile-stats.yml) checks GitHub every day
+around 03:15 UTC and updates the linked rankings in the
+[profile README](../README.md) when the numbers or rankings change. It replaces
+only the content between the stats markers and commits the matching data
+snapshot. If the data stays the same, it updates the date after two weeks.
+A failed fetch leaves the last published stats in place.
 
 Run it anytime via **Actions → Refresh profile stats → Run workflow**. GitHub
 can disable a public repo's schedule after 60 days of repository inactivity.
@@ -26,4 +26,4 @@ Edit [config.mjs](config.mjs) and commit the change to `master`. Adding an
 
 For local checks, run `node --test profile-stats/stats.test.mjs` from the repo
 root. Use `node profile-stats/refresh-snapshot.mjs` to fetch fresh data and
-regenerate the card locally.
+regenerate the stats section locally.

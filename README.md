@@ -26,9 +26,35 @@
 💬 Interests: Artificial Intelligence, Entrepreneurship, Education, Indian Politics, News, Food, Fitness, Movies  
 ⚡ Fun fact: Coursera is my another Netflix    
  -->
-[Homepage](https://www.gokul.ch) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=seFW1dkAAAAJ) · [Email](mailto:gokul.ch@outlook.com)
+# Gokul Karthik Kumar
 
-![Open-source stats: total stars and forks, and the five repositories leading each ranking.](profile-stats/stats.svg)
+**[Homepage ↗](https://www.gokul.ch)** · **[Google Scholar ↗](https://scholar.google.com/citations?hl=en&user=seFW1dkAAAAJ)** · **[Email](mailto:gokul.ch@outlook.com)**
+
+<!-- profile-stats:start -->
+
+## Open-source stats
+
+**724 stars** · **192 forks** across 25 public repositories
+
+| Most starred | Stars |
+| --- | ---: |
+| [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) | 418 |
+| [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) | 61 |
+| [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) | 59 |
+| [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) | 58 |
+| [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) | 46 |
+
+| Most forked | Forks |
+| --- | ---: |
+| [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) | 94 |
+| [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) | 47 |
+| [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) | 11 |
+| [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) | 10 |
+| [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) | 8 |
+
+<sub>Updated 12 Nov 2026</sub>
+
+<!-- profile-stats:end -->
 
 <!--
 ---

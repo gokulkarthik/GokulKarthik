@@ -29,13 +29,13 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
-      - name: Check and refresh the card
+      - name: Check and refresh the README stats
         run: |
           node --test profile-stats/stats.test.mjs
           node profile-stats/refresh-snapshot.mjs
       - name: Publish any changes
         run: |
-          git add -- profile-stats/snapshot.json profile-stats/stats.svg
+          git add -- README.md profile-stats/snapshot.json
           if git diff --cached --quiet; then
             exit 0
           fi

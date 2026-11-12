@@ -89,59 +89,27 @@ export function chooseSnapshot(previous, latest) {
   return unchanged && age < twoWeeks ? previous : latest;
 }
 
-export function renderCard(stats) {
-  // Keep long owner/repo names readable on narrow profile pages.
-  const sections = [
-    { title: 'Most starred', rows: stats.topStarred },
-    { title: 'Most forked', rows: stats.topForked },
-  ];
-  let y = 172;
-  const rankings = sections.map(({ title, rows }) => {
-    const heading = `<text x="24" y="${y}" class="heading">${title}</text>`;
-    y += 25;
-    const entries = rows.map(({ name, count }, index) => {
-      const lines = name.match(/.{1,44}/g);
-      const baseline = y;
-      const rowHeight = 23 + 16 * (lines.length - 1);
-      y += rowHeight;
-      return `<text x="24" y="${baseline}" class="rank">${index + 1}</text>
-        <text x="45" y="${baseline}" class="repo">${lines.map((line, i) =>
-          `<tspan x="45" dy="${i === 0 ? 0 : 16}">${line.replace(/^([^/]+\/)/, '<tspan class="owner">$1</tspan>')}</tspan>`).join('')}</text>
-        <text x="496" y="${baseline}" text-anchor="end" class="count">${number.format(count)}</text>`;
-    }).join('\n    ');
-    y += 12;
-    return heading + '\n    ' + entries;
-  }).join('\n    ');
-  const updated = date.format(new Date(stats.updatedAt));
-  const scope = `${number.format(stats.projects)} public repositories`;
-  const height = y + 22;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="520" height="${height}" viewBox="0 0 520 ${height}" role="img" aria-labelledby="title description">
-  <title id="title">Open-source stats</title>
-  <desc id="description">${number.format(stats.stars)} stars and ${number.format(stats.forks)} forks across ${scope}. Updated ${updated}. ${sections.map(({ title, rows }) =>
-    `${title}: ${rows.map(({ name, count }) => `${name}, ${number.format(count)}`).join('; ')}.`).join(' ')}</desc>
-  <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172438 }
-    .title { font-size: 22px; font-weight: 700 }
-    .heading { font-size: 15px; font-weight: 700 }
-    .label, .rank, .footer, .owner { fill: #506179 }
-    .label, .rank, .footer { font-size: 12px }
-    .total { font-size: 32px; font-weight: 700; fill: #17468e }
-    .repo { font-size: 13.5px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace }
-    .count { font-size: 14px; font-weight: 650 }
-    .total, .count { font-variant-numeric: tabular-nums }
-  </style>
-  <rect x="0.5" y="0.5" width="519" height="${height - 1}" rx="16" fill="#ffffff" stroke="#d8e1ed"/>
-  <text x="24" y="41" class="title">Open-source stats</text>
-  <text x="496" y="40" text-anchor="end" class="label">${scope}</text>
-  <rect x="24" y="61" width="230" height="80" rx="11" fill="#edf4ff"/>
-  <rect x="266" y="61" width="230" height="80" rx="11" fill="#edf4ff"/>
-  <text x="40" y="101" class="total">${number.format(stats.stars)}</text>
-  <text x="41" y="122" class="label">Total stars</text>
-  <text x="282" y="101" class="total">${number.format(stats.forks)}</text>
-  <text x="283" y="122" class="label">Total forks</text>
-  ${rankings}
-  <path d="M24 ${y - 12}H496" stroke="#e2e9f2"/>
-  <text x="24" y="${y + 7}" class="footer">Updated ${updated}</text>
-</svg>
-`;
+export function updateReadme(readme, stats) {
+  const start = '<!-- profile-stats:start -->';
+  const end = '<!-- profile-stats:end -->';
+  const from = readme.indexOf(start);
+  const to = readme.indexOf(end);
+  if (from < 0 || to < from || from !== readme.lastIndexOf(start) || to !== readme.lastIndexOf(end)) {
+    throw new Error('Expected one pair of profile stats markers in README.md');
+  }
+
+  const table = (title, metric, rows) => [
+    `| ${title} | ${metric} |`,
+    '| --- | ---: |',
+    ...rows.map(({ name, count }) => `| [${name}](https://github.com/${name}) | ${number.format(count)} |`),
+  ].join('\n');
+  const section = [
+    '## Open-source stats',
+    `**${number.format(stats.stars)} stars** · **${number.format(stats.forks)} forks** across ${number.format(stats.projects)} public repositories`,
+    table('Most starred', 'Stars', stats.topStarred),
+    table('Most forked', 'Forks', stats.topForked),
+    `<sub>Updated ${date.format(new Date(stats.updatedAt))}</sub>`,
+  ].join('\n\n');
+
+  return `${readme.slice(0, from + start.length)}\n\n${section}\n\n${readme.slice(to)}`;
 }

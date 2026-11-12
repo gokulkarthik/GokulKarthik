@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 import snapshot from './snapshot.json' with { type: 'json' };
-import { chooseSnapshot, fetchStats, renderCard, summarize } from './stats.mjs';
+import { chooseSnapshot, fetchStats, summarize, updateReadme } from './stats.mjs';
 
 const project = (id, full_name, stargazers_count, forks_count, flags = {}) => ({
   id, full_name, stargazers_count, forks_count, ...flags,
@@ -54,9 +54,26 @@ test('rejects redirects outside the GitHub API origin', async () => {
     Response.redirect('https://example.com', 301) }), /Unexpected GitHub redirect/);
 });
 
-test('checked-in SVG matches its data snapshot', async () => {
-  const svg = await readFile(new URL('./stats.svg', import.meta.url), 'utf8');
-  assert.equal(svg, renderCard(snapshot));
+test('README stats match the snapshot and each ranked name links to its repository', async () => {
+  const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
+  assert.equal(readme, updateReadme(readme, snapshot));
+  for (const { name } of [...snapshot.topStarred, ...snapshot.topForked]) {
+    assert.ok(readme.includes(`[${name}](https://github.com/${name})`));
+  }
+});
+
+test('README refresh preserves surrounding content and requires both markers', () => {
+  const prefix = '# Profile\n\n';
+  const suffix = '\n\n[Homepage](https://www.gokul.ch)\n';
+  const start = '<!-- profile-stats:start -->';
+  const end = '<!-- profile-stats:end -->';
+  const readme = `${prefix}${start}\nold stats\n${end}${suffix}`;
+  const updated = updateReadme(readme, snapshot);
+  assert.ok(updated.startsWith(prefix + start));
+  assert.ok(updated.endsWith(end + suffix));
+  assert.ok(!updated.includes('old stats'));
+  assert.throws(() => updateReadme(prefix + start, snapshot), /profile stats markers/);
+  assert.throws(() => updateReadme(readme + end, snapshot), /profile stats markers/);
 });
 
 test('publishes changed stats immediately and revalidates stable snapshots every two weeks', () => {
