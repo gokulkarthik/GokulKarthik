@@ -54,17 +54,19 @@ test('rejects redirects outside the GitHub API origin', async () => {
     Response.redirect('https://example.com', 301) }), /Unexpected GitHub redirect/);
 });
 
-test('README shows matching totals and clickable rankings side by side', async () => {
+test('README groups totals and renders each ranking as its own list', async () => {
   const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
   assert.equal(readme, updateReadme(readme, snapshot));
-  assert.match(readme, /^## Open-Source Stats · ⭐ [\d,]+ Stars · 🍴 [\d,]+ Forks$/m);
-  assert.ok(!readme.includes('public repositories'));
-  const rows = readme.split('\n').filter(line => line.startsWith('| ['));
-  assert.equal(rows.length, snapshot.topStarred.length);
-  for (const [i, row] of rows.entries()) {
-    for (const { name } of [snapshot.topStarred[i], snapshot.topForked[i]]) {
-      assert.ok(row.includes(`[${name}](https://github.com/${name})`));
-    }
+  const number = new Intl.NumberFormat('en-US');
+  assert.ok(readme.includes(`⭐&nbsp;${number.format(snapshot.stars)}&nbsp;stars`));
+  assert.ok(readme.includes(`🍴&nbsp;${number.format(snapshot.forks)}&nbsp;forks`));
+  for (const [title, projects, icon] of [
+    ['Most starred', snapshot.topStarred, '⭐'],
+    ['Most forked', snapshot.topForked, '🍴'],
+  ]) {
+    const rows = readme.split(`### ${title}\n\n`)[1].split('\n\n')[0];
+    assert.deepEqual(rows.split('\n'), projects.map(({ name, count }) =>
+      `- [${name}](https://github.com/${name}) · ${icon}&nbsp;${number.format(count)}`));
   }
 });
 
