@@ -63,7 +63,7 @@ test('README groups totals and shows both counts for every top repository', asyn
   const section = readme.split('### Top repositories\n\n')[1].split('\n\n')[0];
   assert.equal(section.split('\n').filter(line => line.startsWith('- ')).length, snapshot.topRepositories.length);
   for (const { name, stars, forks } of snapshot.topRepositories) {
-    assert.ok(section.includes(`- [${name}](https://github.com/${name})  \n  ⭐&nbsp;${stars}&nbsp;stars · 🍴&nbsp;${forks}&nbsp;forks`));
+    assert.ok(section.includes(`- [${name}](https://github.com/${name}) · ⭐&nbsp;${stars}&nbsp;·&nbsp;🍴&nbsp;${forks}`));
   }
 });
 
