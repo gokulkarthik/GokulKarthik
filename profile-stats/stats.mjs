@@ -20,10 +20,10 @@ export function summarize(repositories, updatedAt = new Date().toISOString()) {
   const total = metric => projects.reduce((sum, project) => sum + project[metric], 0);
   const byName = (a, b) => a.name.localeCompare(b.name, 'en');
   const byStars = (a, b) => b.stars - a.stars || b.forks - a.forks || byName(a, b);
-  const starred = [...projects].sort(byStars).slice(0, 5);
+  const starred = [...projects].sort(byStars).slice(0, 6);
   const forked = [...projects]
     .sort((a, b) => b.forks - a.forks || b.stars - a.stars || byName(a, b))
-    .slice(0, 5);
+    .slice(0, 6);
 
   return {
     updatedAt,
