@@ -3,48 +3,31 @@
   "projects": 25,
   "stars": 725,
   "forks": 192,
-  "topStarred": [
+  "topRepositories": [
     {
       "name": "AI4Bharat/Indic-TTS",
-      "count": 419
+      "stars": 419,
+      "forks": 94
     },
     {
       "name": "gokulkarthik/hateclipper",
-      "count": 61
+      "stars": 61,
+      "forks": 11
     },
     {
       "name": "gokulkarthik/NPTEL-Social-Networks",
-      "count": 59
+      "stars": 59,
+      "forks": 47
     },
     {
       "name": "gokulkarthik/text2speech",
-      "count": 58
+      "stars": 58,
+      "forks": 8
     },
     {
       "name": "gokulkarthik/Deep-Learning-Projects.pytorch",
-      "count": 46
-    }
-  ],
-  "topForked": [
-    {
-      "name": "AI4Bharat/Indic-TTS",
-      "count": 94
-    },
-    {
-      "name": "gokulkarthik/NPTEL-Social-Networks",
-      "count": 47
-    },
-    {
-      "name": "gokulkarthik/hateclipper",
-      "count": 11
-    },
-    {
-      "name": "gokulkarthik/Deep-Learning-Projects.pytorch",
-      "count": 10
-    },
-    {
-      "name": "gokulkarthik/text2speech",
-      "count": 8
+      "stars": 46,
+      "forks": 10
     }
   ]
 }

@@ -38,21 +38,18 @@ AI researcher at IBM Research Zürich · PhD candidate at TU Wien
 
 **⭐&nbsp;725&nbsp;stars** · **🍴&nbsp;192&nbsp;forks**
 
-### Most starred
+### Top repositories
 
-- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) · ⭐&nbsp;419
-- [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) · ⭐&nbsp;61
-- [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) · ⭐&nbsp;59
-- [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) · ⭐&nbsp;58
-- [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) · ⭐&nbsp;46
-
-### Most forked
-
-- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) · 🍴&nbsp;94
-- [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) · 🍴&nbsp;47
-- [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) · 🍴&nbsp;11
-- [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) · 🍴&nbsp;10
-- [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) · 🍴&nbsp;8
+- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS)  
+  ⭐&nbsp;419&nbsp;stars · 🍴&nbsp;94&nbsp;forks
+- [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper)  
+  ⭐&nbsp;61&nbsp;stars · 🍴&nbsp;11&nbsp;forks
+- [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks)  
+  ⭐&nbsp;59&nbsp;stars · 🍴&nbsp;47&nbsp;forks
+- [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech)  
+  ⭐&nbsp;58&nbsp;stars · 🍴&nbsp;8&nbsp;forks
+- [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch)  
+  ⭐&nbsp;46&nbsp;stars · 🍴&nbsp;10&nbsp;forks
 
 <sub>Updated 13 Nov 2026</sub>
 

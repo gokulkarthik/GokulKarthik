@@ -14,16 +14,16 @@ test('deduplicates by ID, excludes private repos and forks, and ranks each metri
   const repos = [
     indic, indicFork, { ...indic },
     project(3, 'gokulkarthik/private', 500, 500, { private: true }),
-    ...['a', 'b', 'c', 'd', 'e'].map((name, i) => project(4 + i, `gokulkarthik/${name}`, 4, 9 - i)),
+    ...['a', 'b', 'c', 'd', 'e'].map((name, i) => project(4 + i, `gokulkarthik/${name}`, i === 4 ? 3 : 4, i === 4 ? 10 : 9 - i)),
   ];
   const stats = summarize(repos);
   assert.equal(stats.projects, 6);
-  assert.equal(stats.stars, 32);
-  assert.equal(stats.forks, 40);
-  assert.deepEqual(stats.topStarred.map(row => row.name), [
-    indic.full_name, 'gokulkarthik/a', 'gokulkarthik/b', 'gokulkarthik/c', 'gokulkarthik/d',
+  assert.equal(stats.stars, 31);
+  assert.equal(stats.forks, 45);
+  assert.deepEqual(stats.topRepositories.map(row => row.name), [
+    indic.full_name, 'gokulkarthik/a', 'gokulkarthik/b', 'gokulkarthik/c',
+    'gokulkarthik/d', 'gokulkarthik/e',
   ]);
-  assert.deepEqual(stats.topForked.map(row => row.count), [9, 8, 7, 6, 5]);
 });
 
 test('reads all pages and counts the canonical original once for curated fork aliases', async () => {
@@ -54,19 +54,16 @@ test('rejects redirects outside the GitHub API origin', async () => {
     Response.redirect('https://example.com', 301) }), /Unexpected GitHub redirect/);
 });
 
-test('README groups totals and renders each ranking as its own list', async () => {
+test('README groups totals and shows both counts for every top repository', async () => {
   const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
   assert.equal(readme, updateReadme(readme, snapshot));
   const number = new Intl.NumberFormat('en-US');
   assert.ok(readme.includes(`⭐&nbsp;${number.format(snapshot.stars)}&nbsp;stars`));
   assert.ok(readme.includes(`🍴&nbsp;${number.format(snapshot.forks)}&nbsp;forks`));
-  for (const [title, projects, icon] of [
-    ['Most starred', snapshot.topStarred, '⭐'],
-    ['Most forked', snapshot.topForked, '🍴'],
-  ]) {
-    const rows = readme.split(`### ${title}\n\n`)[1].split('\n\n')[0];
-    assert.deepEqual(rows.split('\n'), projects.map(({ name, count }) =>
-      `- [${name}](https://github.com/${name}) · ${icon}&nbsp;${number.format(count)}`));
+  const section = readme.split('### Top repositories\n\n')[1].split('\n\n')[0];
+  assert.equal(section.split('\n').filter(line => line.startsWith('- ')).length, snapshot.topRepositories.length);
+  for (const { name, stars, forks } of snapshot.topRepositories) {
+    assert.ok(section.includes(`- [${name}](https://github.com/${name})  \n  ⭐&nbsp;${stars}&nbsp;stars · 🍴&nbsp;${forks}&nbsp;forks`));
   }
 });
 

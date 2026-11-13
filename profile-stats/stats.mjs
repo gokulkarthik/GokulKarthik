@@ -18,18 +18,19 @@ export function summarize(repositories, updatedAt = new Date().toISOString()) {
 
   const projects = [...unique.values()];
   const total = metric => projects.reduce((sum, project) => sum + project[metric], 0);
-  const top = metric => [...projects]
-    .sort((a, b) => b[metric] - a[metric] || a.name.localeCompare(b.name, 'en'))
-    .slice(0, 5)
-    .map(project => ({ name: project.name, count: project[metric] }));
+  const byName = (a, b) => a.name.localeCompare(b.name, 'en');
+  const byStars = (a, b) => b.stars - a.stars || b.forks - a.forks || byName(a, b);
+  const starred = [...projects].sort(byStars).slice(0, 5);
+  const forked = [...projects]
+    .sort((a, b) => b.forks - a.forks || b.stars - a.stars || byName(a, b))
+    .slice(0, 5);
 
   return {
     updatedAt,
     projects: projects.length,
     stars: total('stars'),
     forks: total('forks'),
-    topStarred: top('stars'),
-    topForked: top('forks'),
+    topRepositories: [...new Set([...starred, ...forked])].sort(byStars),
   };
 }
 
@@ -98,17 +99,14 @@ export function updateReadme(readme, stats) {
     throw new Error('Expected one pair of profile stats markers in README.md');
   }
 
-  const ranking = (title, projects, icon) => [
-    `### ${title}`,
-    '',
-    ...projects.map(({ name, count }) =>
-      `- [${name}](https://github.com/${name}) · ${icon}&nbsp;${number.format(count)}`),
-  ].join('\n');
+  const rankings = stats.topRepositories.map(({ name, stars, forks }) =>
+    `- [${name}](https://github.com/${name})  \n  ⭐&nbsp;${number.format(stars)}&nbsp;stars · 🍴&nbsp;${number.format(forks)}&nbsp;forks`
+  ).join('\n');
   const section = [
     '## Open Source',
     `**⭐&nbsp;${number.format(stats.stars)}&nbsp;stars** · **🍴&nbsp;${number.format(stats.forks)}&nbsp;forks**`,
-    ranking('Most starred', stats.topStarred, '⭐'),
-    ranking('Most forked', stats.topForked, '🍴'),
+    '### Top repositories',
+    rankings,
     `<sub>Updated ${date.format(new Date(stats.updatedAt))}</sub>`,
   ].join('\n\n');
 
