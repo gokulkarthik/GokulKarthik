@@ -98,15 +98,17 @@ export function updateReadme(readme, stats) {
     throw new Error('Expected one pair of profile stats markers in README.md');
   }
 
-  const cells = ({ name, count }) => `[${name}](https://github.com/${name}) | ${number.format(count)}`;
-  const rankings = [
-    '| Most Starred | Stars | Most Forked | Forks |',
-    '| --- | ---: | --- | ---: |',
-    ...stats.topStarred.map((starred, i) => `| ${cells(starred)} | ${cells(stats.topForked[i])} |`),
+  const ranking = (title, projects, icon) => [
+    `### ${title}`,
+    '',
+    ...projects.map(({ name, count }) =>
+      `- [${name}](https://github.com/${name}) · ${icon}&nbsp;${number.format(count)}`),
   ].join('\n');
   const section = [
-    `## Open-Source Stats · ⭐ ${number.format(stats.stars)} Stars · 🍴 ${number.format(stats.forks)} Forks`,
-    rankings,
+    '## Open Source',
+    `**⭐&nbsp;${number.format(stats.stars)}&nbsp;stars** · **🍴&nbsp;${number.format(stats.forks)}&nbsp;forks**`,
+    ranking('Most starred', stats.topStarred, '⭐'),
+    ranking('Most forked', stats.topForked, '🍴'),
     `<sub>Updated ${date.format(new Date(stats.updatedAt))}</sub>`,
   ].join('\n\n');
 

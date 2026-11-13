@@ -26,19 +26,33 @@
 💬 Interests: Artificial Intelligence, Entrepreneurship, Education, Indian Politics, News, Food, Fitness, Movies  
 ⚡ Fun fact: Coursera is my another Netflix    
  -->
+# Gokul Karthik Kumar
+
+AI researcher at IBM Research Zürich · PhD candidate at TU Wien
+
 **[Homepage ↗](https://www.gokul.ch)** · **[Google Scholar ↗](https://scholar.google.com/citations?hl=en&user=seFW1dkAAAAJ)** · **[Email](mailto:gokul.ch@outlook.com)**
 
 <!-- profile-stats:start -->
 
-## Open-Source Stats · ⭐ 725 Stars · 🍴 192 Forks
+## Open Source
 
-| Most Starred | Stars | Most Forked | Forks |
-| --- | ---: | --- | ---: |
-| [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) | 419 | [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) | 94 |
-| [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) | 61 | [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) | 47 |
-| [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) | 59 | [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) | 11 |
-| [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) | 58 | [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) | 10 |
-| [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) | 46 | [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) | 8 |
+**⭐&nbsp;725&nbsp;stars** · **🍴&nbsp;192&nbsp;forks**
+
+### Most starred
+
+- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) · ⭐&nbsp;419
+- [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) · ⭐&nbsp;61
+- [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) · ⭐&nbsp;59
+- [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) · ⭐&nbsp;58
+- [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) · ⭐&nbsp;46
+
+### Most forked
+
+- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) · 🍴&nbsp;94
+- [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) · 🍴&nbsp;47
+- [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) · 🍴&nbsp;11
+- [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) · 🍴&nbsp;10
+- [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) · 🍴&nbsp;8
 
 <sub>Updated 13 Nov 2026</sub>
 
