@@ -100,11 +100,10 @@ export function updateReadme(readme, stats) {
   }
 
   const rankings = stats.topRepositories.map(({ name, stars, forks }) =>
-    `- [${name}](https://github.com/${name})  \n  ⭐&nbsp;${number.format(stars)}&nbsp;stars · 🍴&nbsp;${number.format(forks)}&nbsp;forks`
+    `- [${name}](https://github.com/${name}) · ⭐&nbsp;${number.format(stars)}&nbsp;·&nbsp;🍴&nbsp;${number.format(forks)}`
   ).join('\n');
   const section = [
-    '## Open Source',
-    `**⭐&nbsp;${number.format(stats.stars)}&nbsp;stars** · **🍴&nbsp;${number.format(stats.forks)}&nbsp;forks**`,
+    `## Open Source · ⭐&nbsp;${number.format(stats.stars)}&nbsp;stars&nbsp;·&nbsp;🍴&nbsp;${number.format(stats.forks)}&nbsp;forks`,
     '### Top repositories',
     rankings,
     `<sub>Updated ${date.format(new Date(stats.updatedAt))}</sub>`,
