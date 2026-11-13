@@ -39,6 +39,7 @@
 - [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) · ⭐&nbsp;59&nbsp;·&nbsp;🍴&nbsp;47
 - [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) · ⭐&nbsp;58&nbsp;·&nbsp;🍴&nbsp;8
 - [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) · ⭐&nbsp;46&nbsp;·&nbsp;🍴&nbsp;10
+- [gokulkarthik/LSTNet.pytorch](https://github.com/gokulkarthik/LSTNet.pytorch) · ⭐&nbsp;33&nbsp;·&nbsp;🍴&nbsp;6
 
 <sub>Updated 13 Nov 2026</sub>
 
