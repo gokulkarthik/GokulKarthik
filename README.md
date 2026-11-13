@@ -26,30 +26,19 @@
 💬 Interests: Artificial Intelligence, Entrepreneurship, Education, Indian Politics, News, Food, Fitness, Movies  
 ⚡ Fun fact: Coursera is my another Netflix    
  -->
-# Gokul Karthik Kumar
-
-AI researcher at IBM Research Zürich · PhD candidate at TU Wien
-
 **[Homepage ↗](https://www.gokul.ch)** · **[Google Scholar ↗](https://scholar.google.com/citations?hl=en&user=seFW1dkAAAAJ)** · **[Email](mailto:gokul.ch@outlook.com)**
 
 <!-- profile-stats:start -->
 
-## Open Source
-
-**⭐&nbsp;725&nbsp;stars** · **🍴&nbsp;192&nbsp;forks**
+## Open Source · ⭐&nbsp;725&nbsp;stars&nbsp;·&nbsp;🍴&nbsp;192&nbsp;forks
 
 ### Top repositories
 
-- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS)  
-  ⭐&nbsp;419&nbsp;stars · 🍴&nbsp;94&nbsp;forks
-- [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper)  
-  ⭐&nbsp;61&nbsp;stars · 🍴&nbsp;11&nbsp;forks
-- [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks)  
-  ⭐&nbsp;59&nbsp;stars · 🍴&nbsp;47&nbsp;forks
-- [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech)  
-  ⭐&nbsp;58&nbsp;stars · 🍴&nbsp;8&nbsp;forks
-- [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch)  
-  ⭐&nbsp;46&nbsp;stars · 🍴&nbsp;10&nbsp;forks
+- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) · ⭐&nbsp;419&nbsp;·&nbsp;🍴&nbsp;94
+- [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) · ⭐&nbsp;61&nbsp;·&nbsp;🍴&nbsp;11
+- [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) · ⭐&nbsp;59&nbsp;·&nbsp;🍴&nbsp;47
+- [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) · ⭐&nbsp;58&nbsp;·&nbsp;🍴&nbsp;8
+- [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) · ⭐&nbsp;46&nbsp;·&nbsp;🍴&nbsp;10
 
 <sub>Updated 13 Nov 2026</sub>
 
