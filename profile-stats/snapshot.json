@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-25T13:00:05.109Z",
+  "updatedAt": "2026-11-27T12:28:40.227Z",
   "projects": 25,
-  "stars": 729,
+  "stars": 735,
   "forks": 194,
   "topRepositories": [
     {
       "name": "AI4Bharat/Indic-TTS",
-      "stars": 424,
+      "stars": 430,
       "forks": 96
     },
     {

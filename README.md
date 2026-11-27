@@ -30,18 +30,18 @@
 
 <!-- profile-stats:start -->
 
-## Open Source · ⭐&nbsp;729&nbsp;stars&nbsp;·&nbsp;🍴&nbsp;194&nbsp;forks
+## Open Source · ⭐&nbsp;735&nbsp;stars&nbsp;·&nbsp;🍴&nbsp;194&nbsp;forks
 
 ### Top repositories
 
-- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) · ⭐&nbsp;424&nbsp;·&nbsp;🍴&nbsp;96
+- [AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) · ⭐&nbsp;430&nbsp;·&nbsp;🍴&nbsp;96
 - [gokulkarthik/hateclipper](https://github.com/gokulkarthik/hateclipper) · ⭐&nbsp;61&nbsp;·&nbsp;🍴&nbsp;11
 - [gokulkarthik/NPTEL-Social-Networks](https://github.com/gokulkarthik/NPTEL-Social-Networks) · ⭐&nbsp;58&nbsp;·&nbsp;🍴&nbsp;47
 - [gokulkarthik/text2speech](https://github.com/gokulkarthik/text2speech) · ⭐&nbsp;58&nbsp;·&nbsp;🍴&nbsp;8
 - [gokulkarthik/Deep-Learning-Projects.pytorch](https://github.com/gokulkarthik/Deep-Learning-Projects.pytorch) · ⭐&nbsp;46&nbsp;·&nbsp;🍴&nbsp;10
 - [gokulkarthik/LSTNet.pytorch](https://github.com/gokulkarthik/LSTNet.pytorch) · ⭐&nbsp;33&nbsp;·&nbsp;🍴&nbsp;6
 
-<sub>Updated 25 Nov 2026</sub>
+<sub>Updated 27 Nov 2026</sub>
 
 <!-- profile-stats:end -->
 
